@@ -20,8 +20,8 @@ To use the widget, simply add the weather-widget class to the div element where 
 
 The widget will automatically display the current weather for your location.
 
-##Customization
-You can customize the appearance of the widget by modifying the CSS styles in the weather-widget.css file.
+## Customization
+> You can customize the appearance of the widget by modifying the CSS styles in the weather-widget.css file.
 
-####Credits
-This widget was created by Arquimedes and is released under the MIT license. It uses data from open-meteo and Google Geocode api to retrieve the current weather data and City.
+#### Credits
+> This widget was created by Arquimedes and is released under the MIT license. It uses data from open-meteo and Google Geocode api to retrieve the current weather data and City.
