@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Weather widget</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+    <style>
+      /* Adicione seu CSS aqui */
+      body {
+        font-family: sans-serif;
+      }
+
+      .weather-forecast {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin: 20px 0;
+      }
+
+      .weather-forecast .date {
+        font-weight: bold;
+      }
+
+      .weather-forecast .temperature {
+        font-size: 16px;
+        margin-left: 10px;
+        color: red;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h3>Current Weather</h3>
+
+    <div class="weather-forecast">
+      <div class="date"></div>
+      
+      <div id="temp_now" class="temperature">Not Authorized</div>
+      <div id="city_name" class="temperature"></div>
+      <div id="weather_type" class="temperature"></div>
+    </div>
+
+ 
+    <script src="./weather.js" ></script>
+
+
+
+</body>
+</html>
